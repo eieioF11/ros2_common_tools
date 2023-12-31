@@ -4,3 +4,6 @@
 [submodule "extension_ament"]
 	path = extension_ament
 	url = https://github.com/eieioF11/extension_ament.git
+[submodule "common_lib/include/common_lib"]
+	path = common_lib/include/common_lib
+	url = https://github.com/eieioF11/common_lib.git
