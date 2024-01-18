@@ -7,3 +7,6 @@
 [submodule "common_lib/include/common_lib"]
 	path = common_lib/include/common_lib
 	url = https://github.com/eieioF11/common_lib.git
+[submodule "extension_msgs"]
+	path = extension_msgs
+	url = https://github.com/eieioF11/extension_msgs.git
