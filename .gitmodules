@@ -10,3 +10,6 @@
 [submodule "extension_msgs"]
 	path = extension_msgs
 	url = https://github.com/eieioF11/extension_msgs.git
+[submodule "data_logger"]
+	path = data_logger
+	url = https://github.com/eieioF11/data_logger.git
