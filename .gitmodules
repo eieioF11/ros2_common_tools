@@ -1,15 +1,9 @@
 [submodule "extension_node"]
 	path = extension_node
 	url = https://github.com/eieioF11/extension_node.git
-[submodule "extension_ament"]
-	path = extension_ament
-	url = https://github.com/eieioF11/extension_ament.git
-[submodule "common_lib/include/common_lib"]
-	path = common_lib/include/common_lib
-	url = https://github.com/eieioF11/common_lib.git
-[submodule "extension_msgs"]
-	path = extension_msgs
-	url = https://github.com/eieioF11/extension_msgs.git
 [submodule "data_logger"]
 	path = data_logger
 	url = https://github.com/eieioF11/data_logger.git
+[submodule "common_utils/include/common_utils"]
+	path = common_utils/include/common_utils
+	url = https://github.com/eieioF11/common_utils.git

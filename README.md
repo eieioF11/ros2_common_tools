@@ -1,9 +1,6 @@
 # ros2_common_tools
-ros2で使えるツールとかライブラリとか
+ros2で使えるツール,ライブラリ等
 ## tools
-
-- common_lib (praivate):いろいろ便利なライブラリ
-- extension_ament (praivate):cmake書きやすくするやつ
-- extension_node (public):拡張機能付きのノード作成
-- extension_msgs (public):追加の自作メッセージ
+- common_utils (public):ros2,pclなどの便利ツール
+- extension_node (public):拡張機能付きのノード
 - data_logger (public):csvでログ取ってくれるやつ
