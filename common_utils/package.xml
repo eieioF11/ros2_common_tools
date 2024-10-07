@@ -1,26 +1,24 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>common_lib</name>
+  <name>common_utils</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
   <maintainer email="eieioeiji0501@gmail.com">f11</maintainer>
   <license>TODO: License declaration</license>
 
-  <buildtool_depend>extension_ament</buildtool_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>rclcpp</depend>
-  <depend>rclcpp_components</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msg</depend>
+  <depend>nav_msgs</depend>
+  <depend>visualization_msgs</depend>
   <depend>tf2</depend>
-  <depend>tf2_ros</depend>
   <depend>tf2_eigen</depend>
   <depend>tf2_geometry_msgs</depend>
-  <depend>geometry_msgs</depend>
-  <depend>visualization_msgs</depend>
-  <depend>sensor_msgs</depend>
-  <depend>nav_msgs</depend>
-  <depend>laser_geometry</depend>
-  <depend>jsk_rviz_plugin_msgs</depend>
+  <depend>tf2_ros</depend>
 
   <depend>eigen</depend>
   <depend>tbb</depend>
