@@ -27,6 +27,7 @@ find_package(tf2 REQUIRED)
 find_package(tf2_eigen REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 find_package(tf2_ros REQUIRED)
+find_package(pcl_conversions REQUIRED)
 
 # create library
 add_library(${PROJECT_NAME} INTERFACE)
@@ -42,6 +43,7 @@ ament_target_dependencies(${PROJECT_NAME} INTERFACE
   tf2_eigen
   tf2_geometry_msgs
   tf2_ros
+  pcl_conversions
 )
 
 # install library
@@ -72,6 +74,7 @@ ament_export_dependencies(
   tf2_eigen
   tf2_geometry_msgs
   tf2_ros
+  pcl_conversions
 )
 
 ament_package()
